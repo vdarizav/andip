@@ -1,0 +1,168 @@
+body
+{
+	background-color: #cdcccc;
+	font-family:"Helvetica",Arial;
+
+}
+#contenido
+{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1
+{
+color: #fa2f2f;
+text-align: center;
+}
+h3
+{
+color: #cdcccc;
+	font-weight:bold ;
+text-align:	justify ;
+
+}
+h4
+{
+color: #cdcccc;
+	font-weight:bold ;
+	}
+h5
+{
+color: #cdcccc;
+	font-weight:bold ;
+text-align: center;
+}
+
+h6
+{
+color: #cdcccc;
+	font-weight:bold ;
+text-align: right;
+}
+
+{
+color: #cdcccc;
+	font-weight:bold ;
+text-align: center;
+}
+
+p
+{
+color: #cdcccc;
+	font-weight:bold ;
+text-align: center;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right: 20px;
+	color: #eb6a6a;
+	cursor: pointer;
+}
+#textoPr
+{
+	width: 800px;
+	height: 400px;
+	background-color: #494c4d;
+	color: #FFF;
+	margin: 0 auto;
+	text-align: left;
+	border-radius: 20px;
+	padding: 20px;
+	box-shadow: 0px 0px 20px rgb(0, 0, 0,0.8);
+}
+a
+{
+	display: inline-block;
+	margin-right: 20px;
+	color: #eb6a6a;
+	cursor: pointer;
+}
+#micanvas
+{
+	position: absolute;
+	bottom: 0px;	
+	left: 0px;	
+}
+meter
+{
+	color:#fa2f2f;
+	border-radius: 5px;
+	margin-left:20px ;
+	width: 200px;
+}
+label
+{
+	display: block;
+}
+#btnSubmit
+{
+	border:none ;
+	background-color: #FFF;
+	color:#fa2f2f;
+	padding: 4px;
+	margin: 20px;
+	cursor: pointer;
+}
+#Calificacion
+{
+	width: 150px;
+	-webkit-appearance: none;
+	background-color: #FFF;
+	height: 20px;
+	border-radius:5px ;
+	cursor: pointer;
+}
+#Calificacion::-webkit-slider-thumb
+{
+	-webkit-appearance: none;
+	background-color: #fa2f2f;
+	border-radius: 10px;
+	height: 15px;
+	width: 10px;
+}
+video
+{
+	
+	text-align: center;
+}
+
+#fotos
+{
+	<script>
+    /**
+     * Array con las imagenes y enlaces que se iran mostrando en la web
+     */
+    var imagenes=new Array(
+       <h5><img class="cabimg" src="C:\Users\DANHILO ARIZA\Documents\1. U N I V E R S I D A D\4.Electiva Profesional II - Web Semántica/1.jpg" alt="logo" ></h5>
+        ['img/2.jpg','http://www.lawebdelprogramador.com/foros/'],
+        ['img/3.jpg','http://www.lawebdelprogramador.com/pdf/'],
+        ['img/4.jpg','http://www.lawebdelprogramador.com/utilidades/']
+    );
+    var contador=0;
+ 
+    /**
+     * Funcion para cambiar la imagen y link
+     */
+    function rotarImagenes()
+    {
+        // cambiamos la imagen y la url
+        contador++
+        document.getElementById("imagen").src=imagenes[contador%imagenes.length][0];
+        document.getElementById("link").href=imagenes[contador%imagenes.length][1];
+    }
+ 
+    /**
+     * Función que se ejecuta una vez cargada la página
+     */
+    onload=function()
+    {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+ 
+        // Indicamos que cada 5 segundos cambie la imagen
+        setInterval(rotarImagenes,5000);
+    }
+</script>
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html> es mas claro indica al navegador que vamos a trabajar html5
+<html lang="es"> definimos el lenguaje
+<head>  encabezado pagina, permite que dentro de el se pongan datos importante o estilos
+<meta charset="utf-8"> metadatos , para el renderizar, adicional permite anclar en sitio, el charset permite caracteres con acentos por ejemplo
+<link rel="stylesheet" href="stylesheet.css"> invoca la hoja de estilo
+<body> va toda la info que va a requerir la pagina
+<div id='contenido'> son agrupaciones, para definir espacion en la pagina y aplciarle estilos con css
+<header> indica que vamos a definir el encabezado de la pagina.
+<hgroup> Agrupar los enmcabezados,titulo
+<h1>Andip.com</h1>	 , asi nos encuentras los buscadores
+<nav> botonera de naevagacion cundo se busca el navegador
+<ul> definiri listas desordenadas
+</header> section indicar que esta es un seccion nueva de la pagina
+<article>  article, centro o articulo que queremos , centro pagina info importa
+<hgroup> define un parrafo
+<h1> parte donde  se colocan redes sociales
+
+
+Stylesheet.css
+background-color: #; color
+font-family: ;fuente
